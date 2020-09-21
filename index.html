@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    
+
+    <div id="calculadora"> 
+        <text> CALCULADORA</text>
+        <textarea id="display" disabled rows="1">  </textarea>
+
+        <div>
+            <button onclick="pressionarNumero(this)">1</button>
+            <button onclick="pressionarNumero(this)">2</button>
+            <button onclick="pressionarNumero(this)">3</button>
+            <button onclick="pressionarOperador(this)">+</button>
+    
+        </div>
+    
+        <div>
+            <button onclick="pressionarNumero(this)">4</button>
+            <button onclick="pressionarNumero(this)">5</button>
+            <button onclick="pressionarNumero(this)">6</button>
+            <button onclick="pressionarOperador(this)">-</button>
+
+        </div>
+
+        <div>
+            <button onclick="pressionarNumero(this)">7</button>
+            <button onclick="pressionarNumero(this)">8</button>
+            <button onclick="pressionarNumero(this)">9</button>
+            <button onclick="pressionarOperador(this)">*</button>
+    
+        </div>
+
+        <div>
+            <button onclick="pressionarNumero(this)">0</button>
+            <button onclick="pressionarNumero(this)">.</button>
+            <button id="limpatela" onclick="limparTudo()">c</button>
+            <button onclick="pressionarOperador(this)">/</button>
+    
+        </div>
+        <button id="igualdade" onclick="pressionarIgual(this)">=</button>
+
+    </div>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
