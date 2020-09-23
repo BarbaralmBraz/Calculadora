@@ -1,0 +1,49 @@
+form fieldset{
+    margin: 10px auto 10px auto;
+    width: 20%;
+    border: solid black 1px;
+    padding: 3px;
+    background-color: rgb(204, 204, 206);
+}
+
+form legend{
+    padding: 6px;
+    margin: 10px;
+    border: solid black 1px;
+    font-size: 90%;
+    font-weight: bold;
+    background-color: blanchedalmond;
+}
+
+form label{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form input{
+    width: 80%;
+    border: solid black 1px;
+    font-size: 11px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+form input.botao{
+    display: inline;
+    width: 30%;
+    float: left;
+    margin-bottom: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+form select{
+    width: 50%;
+    height: 25px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
